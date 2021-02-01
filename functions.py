@@ -1,5 +1,4 @@
 import pandas
-import pandas as pd
 import csv
 import os.path
 
@@ -43,12 +42,12 @@ def analyze():
             print(df)
         elif records == "b":
             first = int(input("\nIntrodueix el número de registres que vols visualitzar: "))
-            df = pd.read_csv('C:/Users/mario/PycharmProjects/UF2_UF3-Python/grades.csv')
+            df = pandas.read_csv('C:/Users/mario/PycharmProjects/UF2_UF3-Python/grades.csv')
             print("\n", df.head(first))
 
         elif records == "c":
             last = int(input("\nIntrodueix el número de registres que vols visualitzar: "))
-            df = pd.read_csv('C:/Users/mario/PycharmProjects/UF2_UF3-Python/grades.csv')
+            df = pandas.read_csv('C:/Users/mario/PycharmProjects/UF2_UF3-Python/grades.csv')
             print("\n", df.tail(last))
         else:
             print("Error")
