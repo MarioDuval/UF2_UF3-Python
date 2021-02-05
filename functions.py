@@ -19,4 +19,4 @@ def analyze():  #funció per analitzar dades
         elif records == "c":
             sc.section3()       #crida a la funció del pandas per mostrar els últims registres
         else:
-            print("Error")
+            print("Opcion incorrecta")

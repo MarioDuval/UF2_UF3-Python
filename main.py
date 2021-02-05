@@ -21,7 +21,7 @@ def main():
         f.analyze()     #crida a la funció per analitzar els registres
 
     else:
-        print("Error")
+        print("Opció incorrecte")
 
 
 
